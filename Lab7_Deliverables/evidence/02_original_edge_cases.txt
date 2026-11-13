@@ -1,0 +1,6 @@
+split_code(None) -> AttributeError: 'NoneType' object has no attribute 'strip'
+split_code('SAVE') -> ValueError: not enough values to unpack (expected 2, got 1)
+most_expensive('1,,2') -> ValueError: could not convert string to float: ''
+most_expensive('') -> ValueError: could not convert string to float: ''
+expiry_days('2024-02-30') -> 60 [UNEXPECTED ACCEPTANCE]
+expiry_days(None) -> AttributeError: 'NoneType' object has no attribute 'split'
